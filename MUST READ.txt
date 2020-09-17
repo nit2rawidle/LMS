@@ -1,0 +1,25 @@
+How to run the Library Management System (LMS) Project
+1. Download the zip file (LMS zip/lms.rar)
+
+2. Extract the file and copy lms folder
+
+3. Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+
+4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+
+5. In PHPMyAdmin create a database with name 'lms'
+
+6. Import the database(provided as lms.sql)
+
+7. Run the script http://localhost/lms (frontend)
+
+8. For login panel
+Click on LOGIN tab/option or type URL: http://localhost/lms/logintype.php
+
+Credential for Librarian:
+Username: admin 
+Password: admin
+
+Credential for Member:
+Username: 170101033
+Password: nitish
