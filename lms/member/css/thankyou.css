@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+html{
+  background-color :#22222A;
+}
+svg {
+  position: absolute;
+  margin:auto;
+  height:100%;
+  width:100%;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+#instructions{
+  position:absolute;
+  width:100%;
+  bottom:0;
+  margin: auto;
+  margin-bottom:40px;
+  font-family:'Open Sans', sans-serif;
+  color:#167370;
+  font-size:.9em;
+  text-transform: uppercase;
+  text-align : center;
+  user-select: none;
+}
+
+#credits{
+  position:absolute;
+  width:100%;
+  margin: auto;
+  bottom:0;
+  margin-bottom:20px;
+  font-family:'Open Sans', sans-serif;
+  color:#565368;
+  font-size:0.7em;
+  text-transform: uppercase;
+  text-align : center;
+}
+#credits a {
+  color:#565368;
+}
